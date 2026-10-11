@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Ubuntu 安装 Docker CE（官方源）
 # 用法：sudo ./install_docker_ubuntu.sh
-#      或：curl -fsSL http://<ip>/install_docker_ubuntu.sh | sudo bash
+# 或：curl -fsSL https://raw.githubusercontent.com/mudocli/shares/main/UbuntuInstallDocker.sh | sudo bash
 
 set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
