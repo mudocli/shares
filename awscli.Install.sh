@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 安装 AWS CLI v2，写入 /root/.aws/config 与 credentials，并输出 S3 存储类型说明和上传示例
 # 用法：sudo ./install_awscli.sh
-#      或通过环境变量覆盖：sudo AK=xxx SK=yyy BUCKET=my-bucket ./install_awscli.sh
+#      或通过环境变量覆盖：sudo AK=xxx SK=yyy BUCKET=my-bucket REGION=ap-southeast-1 ./install_awscli.sh
 #
 ```
 curl -fsSl https://raw.githubusercontent.com/mudocli/shares/main/awscli.Install.sh | sudo AK=xxx SK=yyy BUCKET=my-bucket bash
